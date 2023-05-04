@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <header>
+      <h1 class="name-large">Soul-bound tattoo shop</h1>
+      <button id="modalButton">Get SBTs</button>
+    </header>
+    <link rel="stylesheet" href="styleSBT.css" />
+    <link rel="shortcut icon" href="#" />
+    <script src="web3.min.js"></script>
+    <link href="https://fonts.cdnfonts.com/css/common-pixel" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soul-bound tattoo shop</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+      }
+    </style>
+    <button class="connectButtn" id="connect">Connect Wallet</button>
+  </head>
+  <body>
+    <script defer src="main.js"></script>
+    <p class="between-text" id="orText">Or put your address bellow</p>
+    <canvas
+      id="canvas"
+      width="400"
+      height="400"
+      style="border: 1px solid #000"
+    ></canvas>
+    <div class="account-container">
+      <input
+        class="noConnect"
+        type="text"
+        id="address"
+        placeholder="Enter an address"
+      />
+      <button class="noConnect" id="accountWithoutConnect">Get account</button>
+    </div>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <br />
+        <a href="https://zenacademy.com/enroll">Get Zen Academy student ID</a>
+      </div>
+    </div>
+    <button class="tat" id="getWormTattoo">Get a Tattoo of the Worm</button>
+    <button class="tat" id="getZaTattoo">
+      Get your Zen Academy student ID Tattoo
+    </button>
+    <p id="status"></p>
+    <footer>
+      <a
+        href="https://twitter.com/big__soulja"
+        class="twitter-follow-button"
+        data-show-count="false"
+        data-show-screen-name="false"
+      >
+        Tweet
+      </a>
+      <script
+        async
+        src="https://platform.twitter.com/widgets.js"
+        charset="utf-8"
+      ></script>
+      <p class="footer-text">&copy; 2023 Soul-bound Tattoo Shop</p>
+      <a
+        class="form-link"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSeuLeRJNfaz0g4GmkMZINWVbpeob5WiWH-BhxgLy-qdSFlZgA/viewform?usp=sf_link"
+        target="_blank"
+        rel="noopener noreferrer"
+        >SBT Submission Form</a
+      >
+    </footer>
+  </body>
+</html>
