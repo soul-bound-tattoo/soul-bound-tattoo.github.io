@@ -1,0 +1,43 @@
+<svg clip-rule="evenodd" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5" viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg">
+	<defs>
+		<symbol id="line" overflow="visible">
+			<line class="line" stroke="#010001" stroke-width="6" x1="49.55" x2="723.7" y1="102.8" y2="102.8">
+				<animateTransform attributeName="transform" dur="30s" repeatCount="indefinite" type="translate" values="0 0;0 -15;0 0;0 15;0 0"/>
+			</line>
+		</symbol>
+		<symbol id="infini">
+			<path d="M64.07 43.2C59.64 35.9 52.61 28 43.21 28.1c-10.95.1-15.71 9.73-15.71 14.71 0 10 9.16 15.2 15.87 15.2 20.41 0 21.23-29.98 41.65-29.98 5.5 0 15.48 4.41 15.48 15.04 0 9.57-9.35 14.96-15.67 14.96-9.04 0-16.64-8.05-20.76-14.84z" fill="none"/>
+		</symbol>
+	</defs>
+	<style>.o { transform-origin: 273.7px 102.8px; }</style>
+	<style>:root {--l: 203.1688690185547px;--b0: 80px;--b1: 60px;}#body-pink {stroke-dasharray: var(--b0) calc(var(--l) - var(--b0));animation: dash 12s linear forwards infinite;}@keyframes dash {from { stroke-dashoffset: var(--b0); }to { stroke-dashoffset: calc(var(--b0) - var(--l)); }}#body-pink-stroke {stroke-dasharray: var(--b1) calc(var(--l) - var(--b1));animation: dash-stroke 12s linear forwards infinite;}@keyframes dash-stroke {from { stroke-dashoffset: var(--b1); }to { stroke-dashoffset: calc(var(--b1) - var(--l)); }}#body-pink-stroke-trail {stroke-dasharray: var(--b0) calc(var(--l) - var(--b0));animation: dash-trail 12s linear forwards infinite;}@keyframes dash-trail {from { stroke-dashoffset: 130px; }to { stroke-dashoffset: -90px; }}</style>
+	<style>@font-face {font-family: 'computer_robot';font-weight: normal;font-style: normal;src: url(data:application/font-woff2;charset=utf-8;base64,d09GMgABAAAAAASwAA4AAAAAC4gAAARWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP0ZGVE0cGh4GYACDCggEEQgKgwSCegsuAAE2AiQDWAQgBYoIB4FVG1gKCJ4FduNLQ+QBbYwHnM6TYlk2yrDgeXpP+nNnJknhlbJSmqYLCw/Wp76Efdb2wxOhryIaxez1k53YTiyRMqES4adPJLv7rakFVmIaVeP///9+s/L+4aLW7Z5O6GRKJGSTi4hEsSWgcUhri1UtLmTxtri6JNYaW8ltttkeo/oqZk7cEWOIjB7PHhUgAJ+tnboV4O0XvBcAX5/K/EuAGFAYKAShEMEACtCqtWzDwlgHrDxICfmP1O8ypjKgAAA4hrrajfQDAO2u69JMueI/1vv/XZN3msiNYWSOfv070D9aLwAuATSggZIEgFVoBCjJMA5QWIrGJo6rvb2jtxtxs+7Qiv/8HzbgJO/M69/fb/Wb0Nc/fH37s2IgkLrYdIlFgfITBwho/H+ufiuxv8PFtZo0gvxfEoDCAGoAGxgPWA8AGMCjAAA5bOVMYkyqpmuiC5PzR8TDsYXRD4FPmWWRyAZxPtbXUdGNEO0rH0dvEp9EekYKsrF3WXpXfiSyvE9EKQ1n+cICzxF7gNMKfSAbfXSMaDtnlvUaOmklTaIVhd4uv1Oft9z35j7PqbAv1TJS/592J9psVKd+8/p1OpdoS2nUvljLeGDaderX7Fzd729FWtY/1G7YvtpFglDBvGlf6fO/33K/VR1T2XuF6757bl0/beNYw1sB9g/7nvHKLS8NPNe4bzZF2jbe1zDWcd20R+3qlJnWsGNsVb9Bm+ye/BOO3a4L2X3DMfwUfGzrizuxVs5nTnOWs6tgyz8aif2aBRCw75b/ZWiy0a+hMiE+Lo+VNcHqDRA6DEDAafJfF/M55JpfzGaF60daAVD1+YRsIuhdBEEKrOIFQAekUV4GyfI9n70AkgY6So/nitSzgACF1aQAEAAAwAMAGV+hERMG5gANhZLmoCLBDtTUcQwNNXyEFn2i0KZ4+qHDKpmBYbrlN4ywpNpgjG71Asbp1gVZAkbhKxTuW/gqfr+GrxHSf1leJ2HUD36qKb5SzEVMDpZA53FVsZ5G0ygkphM4QgJfqGkkZqvwuAK+nIDH1ZzFgnrQqTShAOqBBIgvRmRzZ0cXTw9LN+dKJmJhpKOKWG8uHCj39EG//ICOOVCOx+eHV8GXFkPNujqIOMiq11FjYaqlFcdzOAtJWHx6BmIhQps/SeBca5Cz9cgVXL34HRmxL6eLYUeBqmS5dcjVk5U1V1JOWaBMHijF4yIdX2yYyWkiuqzzY9RdgupXt1St04tGL9yP6aC5BKM8kp8OCzsyNDtztUONtgnF51418zu1eWpDjT5mR9vt1XYNnTCVTpp1qZb627CDvoiI8G9utG/OnS5YvLOU9zgFa8AFHqMc8IGbTESIy/UNiAqKr+CdnjzRDJ4Nf15ZAPi/sj2QSy0MUaLR1ODxY8QSWxwJSVgiEpWYxCUhSUlJWjL22Enzp43LObOnjPd9v5WUNPcNge9DDgLIQy2oDXWgLtSD+vzmsqANv3apdpuWAAAA) format('woff2');}</style>
+	<clipPath id="a">
+		<path d="M0 0h360v360H0z"/>
+	</clipPath>
+	<g clip-path="url(#a)">
+		<g fill="none" id="worm">
+			<path d="M59.55 252.95c6.25 30 49.37 32.8 59.69 3.88l10.07-28.2c11.45-32.08 58.26-32.16 69.83-.11l10.58 29.3c11.93 33.04 61.15 26.56 64.83-8.26.51-4.85 2.5-4.37-.86-146.8" stroke="#010001" stroke-width="61"/>
+			<path d="M59.55 252.95c6.25 30 49.37 32.8 59.69 3.88l10.07-28.2c11.45-32.08 58.26-32.16 69.83-.11l10.58 29.3c11.93 33.04 61.15 26.56 64.83-8.26.51-4.85 2.5-4.37-.86-146.8" stroke="none" stroke-width="52"/>
+			<!-- <g stroke="#010001" stroke-width="52">
+				<path d="M59.55 252.95c6.25 30 49.37 32.8 59.69 3.88l10.07-28.2c11.45-32.08 58.26-32.16 69.83-.11l10.58 29.3c11.93 33.04 61.15 26.56 64.83-8.26"/>
+				<path d="M274.55 249.56c.42-4.02 1.86-4.38.43-85.56" stroke-linecap="butt"/>
+			</g> -->
+			<path d="M271.47 114.64s-.33 3.46 2.92 3.46c3.24 0 2.92-3.77 2.92-3.77" stroke="#010001" stroke-width="3.2"/>
+			<path d="M266.13 107.76a2.42 2.42 0 002.44-2.36c0-1.3-1.1-2.35-2.44-2.36a2.42 2.42 0 00-2.43 2.36 2.44 2.44 0 002.43 2.36zm15.88-.24h.01a2.42 2.42 0 002.43-2.36c0-.62-.25-1.22-.71-1.67a2.47 2.47 0 00-1.73-.69 2.4 2.4 0 00-2.43 2.36 2.45 2.45 0 002.44 2.36H282z" fill="#010001"/>
+			<g fill="#010001" id="mech">
+				<path d="M246 164h57m-57 78h57m-57 0h57M99 230l49.36 28.5m31.28 0L229 230m32-66 .14 78M137 251c-11 44.5-47.5 41-47.5 41M242 251l.14 57M164 176v57.03M90 249v56" fill="none" stroke="#010001" stroke-linecap="butt" stroke-width="4.5"/>
+				<circle cx="272" cy="232" r="4"/>
+				<circle cx="253" cy="295" r="4"/>
+				<circle cx="175" cy="224" r="4"/>
+				<circle cx="153" cy="224" r="4"/>
+				<circle cx="101" cy="279" r="4"/>
+			</g>
+			<!-- <g fill="none" id="halo" stroke="#010001" stroke-width="5" transform="translate(0, 10)">
+				<ellipse cx="273.45" cy="60.84" rx="17" ry="5" transform="rotate(-30 247.33 53.84)"/>
+				<ellipse cx="273.45" cy="60.84" rx="17" ry="5" stroke="010001" transform="rotate(90 280.45 53.84)"/>
+				<ellipse cx="273.45" cy="60.84" rx="17" ry="5" transform="rotate(30 299.57 53.84)"/>
+			</g> -->
+		</g>
+	</g>
+</svg>
