@@ -1261,10 +1261,10 @@ getZaTatBtn.onclick = async () => {
   await makeLogo("images/Logo.webp");
   if (numberOfZaTattoos < 2) {
     const [name, symbol, balance, tokenID] = await getZaMetadata();
-    console.log([name, symbol, balance, tokenID]);
     if (balance > 0) {
-      writeMetadata([name, symbol, balance, tokenID]);
+      await writeMetadata([name, symbol, balance, tokenID]);
       numberOfZaTattoos++;
+      await logoImage.removeAttribute("src", "");
     }
     if (balance == 0) {
       writeAMessage("You don't have a Zen Academy student ID");
@@ -1279,10 +1279,10 @@ getWormTatBtn.onclick = async () => {
   await makeLogo("images/mechworm_clean_no_bg.db3da710.svg");
   if (numberOfWormTattoos < 2) {
     const [name, symbol, balance] = await getWormMetadata();
-    console.log([name, symbol, balance]);
     if (balance > 0) {
-      writeMetadata([name, symbol, balance]);
+      await writeMetadata([name, symbol, balance]);
       numberOfWormTattoos++;
+      await logoImage.removeAttribute("src", "");
     }
     if (balance == 0) {
       writeAMessage("You don't have a Worm");
@@ -1300,15 +1300,14 @@ async function getZaMetadata() {
   if (zaMetadata[2] > 0) {
     zaMetadata[3] = await ZaContract.methods.tokensOfOwner(account).call(); //get individual tokenID owned
   }
-  console.log(zaMetadata);
   return zaMetadata;
 }
+
 async function getWormMetadata() {
   let wormMetadata = [];
   wormMetadata[0] = await wormContract.methods.name().call(); //get contract name
   wormMetadata[1] = await wormContract.methods.symbol().call(); //get contract symbol
   wormMetadata[2] = await wormContract.methods.isDisciple(account).call(); //get total tokens owned
-  console.log(wormMetadata);
   return wormMetadata;
 }
 
